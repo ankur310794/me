@@ -187,7 +187,7 @@ else
   }
   
 var url = "contact_ajax.php";
-var params = "pwdsa=ashutosh&name=" + name + "&email=" + email + "&phone=" + phone + "&website=" + website + "&msg=" + msg;
+var params = "pwdsa=ankur&name=" + name + "&email=" + email + "&phone=" + phone + "&website=" + website + "&msg=" + msg;
 http.open("POST", url, true);
 //Send the proper header information along with the request
 http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
@@ -208,7 +208,7 @@ http.onreadystatechange = function() {//Call a function when the state changes.
 			}
 				else
 				{
-				alert("Some Random Error Occured . Send a mail to webmaster@ashutoshanand.com");
+				alert("Some Random Error Occured . Send a mail to webmaster@ankur.com");
 				}
 			
 	}
