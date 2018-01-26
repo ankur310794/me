@@ -8,7 +8,7 @@
 
 ==========================================================
 -->
-
+<?php include_once("home.html"); ?>
 <!doctype html>
 <html lang="en" class="no-js">
 
