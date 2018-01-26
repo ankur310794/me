@@ -1,11 +1,17 @@
 {
-    "require": {
-        "php": "~5.3.8",
-    },
-    "extra": {
-        "heroku": {
-            "document-root": "",
-            "index": "index.php"
+   "repositories": [{
+     "type": "package",
+     "package": {
+        "name": "Ankur3107/ankurresume.github.io",
+        "version": "development",
+        "source": {
+            "url": "https://github.com/Ankur3107/ankurresume.github.io.git",
+            "type": "git",
+            "reference": "development"
         }
     }
+  }],
+  "require": {
+      "Ankur3107/ankurresume.github.io": "development"
+  }
 }
