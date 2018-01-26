@@ -1,0 +1,11 @@
+{
+    "require": {
+        "php": "~5.3.8",
+    },
+    "extra": {
+        "heroku": {
+            "document-root": "",
+            "index": "index.php"
+        }
+    }
+}
